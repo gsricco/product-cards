@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@400;500&display=swap");
+
+/* #cards,
+.card,
+.poster,
+.title,
+.title div,
+.price,
+.price div,
+.stars,
+.basket {
+  border: 1px solid teal;
+} */
+*/
+/* li,
+.stars,
+.basket {
+  border: 1px solid teal;
+} */
+
+body {
+  font-family: "Oswald", sans-serif;
+}
+
+#cards {
+  font-family: "Oswald", sans-serif;
+
+  width: 1000px;
+  height: 800px;
+  margin: 50px auto;
+
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.card {
+  width: 300px;
+  height: 675px;
+
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+
+.poster {
+  width: 280px;
+  height: 420px;
+  margin-top: 10px;
+}
+.poster img:nth-child(3) {
+  transform: translate(-90px, -110px);
+}
+.poster img:nth-child(2) {
+  transform: translate(95px, -310px);
+}
+
+.title {
+  width: 280px;
+  height: 75px;
+
+  font-size: 28px;
+  font-weight: 500;
+  color: rgb(97, 97, 97);
+  line-height: 0.9;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+
+.price {
+  width: 280px;
+  height: 45px;
+
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.price div {
+  display: flex;
+  align-items: center;
+}
+
+.price div:nth-child(1) {
+  font-size: 30px;
+  font-weight: 500;
+  color: rgb(36, 35, 35);
+  line-height: 0.9;
+}
+
+.price div:nth-child(2) {
+  font-size: 19px;
+
+  color: rgb(134, 130, 130);
+  text-decoration: line-through;
+  line-height: 1.421;
+}
+
+.stars {
+  width: 280px;
+  height: 40px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.material-icons {
+  color: #f5461a;
+  font-size: 32px;
+}
+
+.basket {
+  width: 280px;
+  height: 75px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+a img {
+  width: 250px;
+  height: 60px;
+}
+a:hover img {
+  width: 248px;
+  height: 58px;
+}
